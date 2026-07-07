@@ -1,0 +1,15 @@
+export default function PlayersPlaceholder() {
+  return (
+    <section className="bg-[#0b0f14] py-20">
+      <div className="mx-auto max-w-4xl px-6 text-center">
+        <h2 className="mb-6 text-4xl font-bold uppercase tracking-widest text-white">
+          Наши игроки
+        </h2>
+        <div className="mx-auto mb-8 h-1 w-20 bg-green-500"></div>
+        <p className="text-lg text-gray-400">
+          Скоро здесь появятся профили игроков.
+        </p>
+      </div>
+    </section>
+  );
+}
